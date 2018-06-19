@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>reverse array</h1>
+    <script>
+      arr = ['x', 'y', 'z'];
+      arrR = [];
+      x = arr.length;
+      for (var i = 0; i < arr.length; i++) {
+        arrR[i] = arr[--x];
+      }
+      document.write(arrR.toString());
+    </script>
+    <pre>
+      <code>
+      arr = ['x', 'y', 'z'];
+      arrR = [];
+      x = arr.length;
+      for (var i = 0; i < arr.length; i++) {
+        arrR[i] = arr[--x];
+      }
+      document.write(arrR.toString());</code>
+    </pre>
+    <p>GitHub.com/kyle-barth</p>
+  </body>
+</html>
